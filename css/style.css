@@ -755,9 +755,10 @@ footer .innerWrap{
     }
 
     .commentList{
-        padding-top: 75px;
+        padding: 75px 10px 0;
         flex-wrap: wrap;
-        width: 76.7%;
+        width: 100%;
+        max-width: 579px;
         margin: 0 auto;
         gap: 48px;
     }
@@ -765,7 +766,7 @@ footer .innerWrap{
     .commentList::before{
         background:url(/images/bg-quotes.png) no-repeat;
         top: 43px;
-        left:11px;
+        left:20px;
         width: 55px;
         height: 34px;
         z-index: -1;
@@ -782,7 +783,7 @@ footer .innerWrap{
 
     .commentMsg{
         padding: 0;
-        font-size: 2.4vw;
+        font-size: 18px;
         line-height: 1.95;
         letter-spacing: 1px;
     }
@@ -884,7 +885,7 @@ footer .innerWrap{
         gap: 20px;
     }
 
-    .footerList li{
+    .footerList > li{
         width: 100%;
     }
     
@@ -930,7 +931,39 @@ footer .innerWrap{
         margin-top: 50px;
     }
 
-    .footerList > li:nth-child(){
-        width: 100%;
+    .footerList > li:nth-child(3){
+        padding: 0 5.9vw;
+        margin-top: 137px;
+    }
+    .footerNav{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footerNav li{
+        margin-top: 46px;
+    }
+    .footerNav li a{
+        font-size: 4vw;
+        letter-spacing: 1px;
+    }
+    .rightFoot{
+        margin-top: 110px;
+    }
+    .footerList > li:nth-child(4){
+        display: flex;
+        justify-content: center;
+    }
+    .socmedList{
+        width: 207px;
+        gap: 24px;
+        padding-top: 146px;
+    }
+    .socmedList li{
+        padding: 14.5px 0;
+        width: 54px;
+    }
+
+    .socmedList li a{
+        font-size: 23px;
     }
 } 
