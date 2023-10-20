@@ -541,6 +541,10 @@ footer .innerWrap{
     color: var(--white);
 }
 
+.footerNav ul li a:hover{
+    font-weight: bold;
+}
+
 .leftFoot{
     margin-right:4.5vw;
 }
@@ -556,6 +560,14 @@ footer .innerWrap{
     border: 1px solid var(--white);
     text-align: center;
     border-radius: 50%;
+}
+
+.socmedList li:hover{
+    border: 1px solid var(--cyan);
+}
+
+.socmedList li:hover a{
+    color: var(--cyan);
 }
 
 .socmedList li a{
@@ -947,6 +959,7 @@ footer .innerWrap{
         font-size: 4vw;
         letter-spacing: 1px;
     }
+    
     .rightFoot{
         margin-top: 110px;
     }
